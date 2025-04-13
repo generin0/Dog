@@ -52,8 +52,8 @@ do {
 	if ((x == ax) && (y == ay)) {
 		score++;
 		if (score > 10) {
-			printf("You are collect enough apples.");
-			break;
+			printf("You are collect enough apples.\n");
+			system("pause");
 		}
 		do {
 			ax = rand() % 8 + 1;
